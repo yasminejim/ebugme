@@ -1,0 +1,44 @@
+/* Story */
+
+#story {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+
+    #story__container__image {
+        display: grid;
+        grid-template-columns: 30%;
+        grid-template-rows: 35vh;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        .story__container__image__wide {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    #story__container__image__title {
+        color: black;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0;
+        text-align: center;
+        padding: 2rem 0;
+        padding-top: 0;
+    }
+
+    #story__container__text {
+        display: grid;
+        grid-template-columns: 60%;
+        justify-content: center;
+        p {
+            font-size: 2rem;
+            color: #a5a5a5;
+            letter-spacing: -0.003em;
+            line-height: 32px;
+            font-size: 1.4rem;
+        }
+    }
+}

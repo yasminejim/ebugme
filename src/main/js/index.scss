@@ -1,0 +1,46 @@
+// Page Styling
+@import "./scss/_acount-page";
+@import "./scss/_feed-page";
+@import "./scss/_not-found-page";
+@import "./scss/_story-page";
+
+// Component Styling
+@import "./scss/_navigation-component";
+@import "./scss/_post-component";
+@import "./scss/_newWriter-component";
+@import "./scss/_popup-component";
+@import "./scss/_newStory-component";
+
+html {
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7fbfc;
+}
+
+$base-icon-color: #004aad;
+$pulse-icon-color: lighten($base-icon-color, 10%);
+
+#circle-info {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 3rem;
+    color: $base-icon-color;
+    cursor: pointer;
+    animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        color: $base-icon-color;
+    }
+    50% {
+        color: $pulse-icon-color;
+    }
+    100% {
+        color: $base-icon-color;
+    }
+}

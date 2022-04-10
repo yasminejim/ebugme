@@ -1,0 +1,7 @@
+{
+    "feed": {
+        "challenge": "Feed Page...",
+        "intro":"Oh no!\nThe blog is a mess!",
+        "text": "This site is scheduled to launch soon and we need your help fixing all of the bugs within the app. Click on the '+' to see the details of each ticket below and use your debugging tools to fix all of the bugs. Check off each ticket you complete as you go. Read the 'Helpful Deugging Tips' in the right side panel for clues."
+    }
+}
