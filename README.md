@@ -19,7 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repo
     ```sh
-    git clone <Insert Link After Fork>
+    git clone https://github.com/joshuaeup/ebugme.git
     ```
 2. Install NPM packages
     ```sh
