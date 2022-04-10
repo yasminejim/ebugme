@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
--   npm version 7 or newer
+-   Must be running npm version 7 or newer
     ```sh
     npm install -g npm@8.5.0
     ```
@@ -42,8 +42,6 @@ These instructions will get you a copy of the project up and running on your loc
     ```sh
     https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
     ```
-
-<a href="https://medium.com/macoclock/update-your-node-js-on-your-mac-in-2020-948948c1ffb2">Helpful Article</a>
 
 ## Authors
 
