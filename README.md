@@ -21,11 +21,15 @@ These instructions will get you a copy of the project up and running on your loc
     ```sh
     git clone https://github.com/joshuaeup/ebugme.git
     ```
-2. Install NPM packages
+2. Open project
+    ```sh
+    cd ebugme
+    ```
+3. Install NPM packages
     ```sh
     npm install
     ```
-3. Run the app
+4. Run the app
 
     ```sh
     npm run start
