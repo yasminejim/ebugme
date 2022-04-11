@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
--   Must be running npm version 7 or newer
+-   Must be running npm version 8 or newer
     ```sh
     npm install -g npm@8.5.0
     ```
