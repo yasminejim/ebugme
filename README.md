@@ -4,7 +4,7 @@ The EBugMe Web Application was created to grant R2H Apprentices a glimpse of wha
 
 The EBugMe Web Application contains a few different challenges in the form of tickets. The apprentices will be tasked with finding the solution for each of these tickets and then pushing up their change to repair the App! 
 
-To view how the app is supposed to work after the repair. <a href="https://github.com/joshuaeup/ebugme/blob/main/completed-example.mov">See The Completed Example</a>.
+To view how the app is supposed to work after the repair. (<a href="https://github.com/joshuaeup/ebugme/blob/main/completed-example.mov">See The Completed Example</a>)
 
 
 ### Workflow Steps
