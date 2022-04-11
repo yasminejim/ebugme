@@ -4,13 +4,27 @@ The EBugMe Web Application was created to grant R2H Apprentices a glimpse of wha
 
 The EBugMe Web Application contains a few different challenges in the form of tickets. The apprentices will be tasked with finding the solution for each of these tickets and then pushing up their change to repair the App!
 
+
+### Workflow Steps
+
+1. Split up into 5 person pods and designate the tech lead of the group.
+2. Tech lead forks the ebugme repo, Then adds the other pod members as contributors to the forked repo via GitHub settings.
+3. All pod members now clone the tech lead's forked repo. (See <a href="https://github.com/joshuaeup/ebugme#getting-started">Getting Started Steps</a>)
+4. The tech lead starts it off by sharing their screen and creating a branch called <b>ticket-1</b>.
+5. All pod members collaborate to solve the first ticket outlined in the app.
+6. Once the ticket is complete, the tech lead pushes up the code and marks the pull request as ready for review.
+7. All pod members review the Pull Request. If everything looks good, and no pod member has additional comments/suggestions to leave on the Pull Request then merge the Pull Request to the Main branch. 🚀 Then all pod members <b>pull down the latest code from the main branch</b> to avoid merge conflicts. 😬
+
+Repeat steps 4-7 for the remaining tickets (next pod member shares their screen and names the new branch <b>ticket-2</b>)
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine
 
 ### Prerequisites
 
--   npm version 7 or newer
+-   Must be running npm version 7 or newer
     ```sh
     npm install -g npm@8.5.0
     ```
@@ -19,13 +33,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repo
     ```sh
-    git clone <Insert Link After Fork>
+    git clone https://github.com/joshuaeup/ebugme.git
     ```
-2. Install NPM packages
+2. Open project
+    ```sh
+    cd ebugme
+    ```
+3. Install NPM packages
     ```sh
     npm install
     ```
-3. Run the app
+4. Run the app
 
     ```sh
     npm run start
@@ -38,11 +56,10 @@ These instructions will get you a copy of the project up and running on your loc
     ```sh
     https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
     ```
-
-<a href="https://medium.com/macoclock/update-your-node-js-on-your-mac-in-2020-948948c1ffb2">Helpful Article</a>
-
+    
+    
 ## Authors
 
--   **Artea Wright** - _Software Engineer_ - Coding Apprenticeship Cohort 8
--   **Frederick Evans** - _Software Engineer_ - Coding Apprenticeship Cohort 8
--   **Joshua Proctor** - _Software Engineer_ - Coding Apprenticeship Cohort 8
+-   **Artea Wright** - _Software Engineer_ - Coding Apprenticeship Cohort 8 Alumni
+-   **Frederick Evans** - _Software Engineer_ - Coding Apprenticeship Cohort 8 Alumni
+-   **Joshua Proctor** - _Software Engineer_ - Coding Apprenticeship Cohort 8 Alumni
